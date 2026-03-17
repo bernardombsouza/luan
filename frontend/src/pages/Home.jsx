@@ -2,6 +2,7 @@ import { useTranslation } from 'react-i18next';
 import { Button } from '../components/ui/button';
 import { ArrowRight, Award, Users, TrendingUp, CheckCircle2 } from 'lucide-react';
 import { Link } from 'react-router-dom';
+import SEO from '../components/SEO';
 
 const Home = () => {
   const { t } = useTranslation();
@@ -56,6 +57,12 @@ const Home = () => {
 
   return (
     <div className="min-h-screen">
+      <SEO 
+        title="Bravia Engenharia | Soluções em Petróleo e Gás - ISO 9001:2015"
+        description="Empresa 100% brasileira com +20 anos em engenharia para petróleo e gás. Fabricação offshore, subsea, usinagem industrial, soldagem certificada. ISO 9001:2015. Macaé-RJ."
+        keywords="bravia engenharia, petróleo e gás, offshore brasil, fabricação subsea, estruturas metálicas, usinagem industrial, soldagem offshore, ISO 9001, Macaé, Constellation, caldeiraria"
+        path="/"
+      />
       {/* Hero Section */}
       <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
         <div

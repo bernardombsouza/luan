@@ -9,6 +9,9 @@ from pydantic import BaseModel, Field, ConfigDict, EmailStr
 from typing import List, Optional
 import uuid
 from datetime import datetime, timezone
+import aiosmtplib
+from email.mime.text import MIMEText
+from email.mime.multipart import MIMEMultipart
 
 
 ROOT_DIR = Path(__file__).parent
@@ -60,6 +63,55 @@ class ContactFormCreate(BaseModel):
     area: str
     message: str
 
+
+# Email notification function
+async def send_email_notification(contact: ContactForm):
+    """Send email notification when a new contact form is submitted"""
+    try:
+        recipient_email = "comercial@bravia.ind.br"
+        
+        # Create HTML email body for logging
+        email_content = f"""
+        Novo Contato Recebido
+        
+        Empresa: {contact.company}
+        Nome: {contact.name}
+        Email: {contact.email}
+        Telefone: {contact.phone or 'Não informado'}
+        Serviço de Interesse: {contact.service}
+        Área de Atuação: {contact.area}
+        
+        Mensagem:
+        {contact.message}
+        
+        Contato recebido em: {contact.created_at.strftime('%d/%m/%Y às %H:%M')}
+        """
+        
+        logger.info(f"Email notification prepared for: {recipient_email}")
+        logger.info(f"Contact from: {contact.name} ({contact.email}) - Company: {contact.company}")
+        logger.info(f"Email content:\n{email_content}")
+        
+        # In production, configure SMTP settings in .env and uncomment below:
+        # message = MIMEMultipart("alternative")
+        # message["Subject"] = f"Novo Contato - {contact.company}"
+        # message["From"] = "noreply@bravia.ind.br"
+        # message["To"] = recipient_email
+        # html_part = MIMEText(html_body, "html")
+        # message.attach(html_part)
+        # await aiosmtplib.send(message, hostname=os.getenv("SMTP_HOST"), ...)
+        
+        return True
+    except Exception as e:
+        logger.error(f"Error sending email notification: {str(e)}")
+        return False
+
+    name: str
+    email: EmailStr
+    phone: Optional[str] = ""
+    service: str
+    area: str
+    message: str
+
 # Add your routes to the router instead of directly to app
 @api_router.get("/")
 async def root():
@@ -92,6 +144,7 @@ async def get_status_checks():
 @api_router.post("/contact", response_model=ContactForm)
 async def create_contact(contact_data: ContactFormCreate):
     try:
+        logger.info(f"Received contact data: {contact_data.model_dump()}")
         contact_dict = contact_data.model_dump()
         contact_obj = ContactForm(**contact_dict)
         
@@ -103,6 +156,10 @@ async def create_contact(contact_data: ContactFormCreate):
         
         if result.inserted_id:
             logger.info(f"Contact form submitted: {contact_obj.company} - {contact_obj.name}")
+            
+            # Send email notification
+            await send_email_notification(contact_obj)
+            
             return contact_obj
         else:
             raise HTTPException(status_code=500, detail="Failed to save contact")

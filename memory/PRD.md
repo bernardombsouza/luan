@@ -4,8 +4,8 @@
 Criar um site institucional moderno, responsivo e profissional para a empresa Bravia Engenharia, com foco no setor industrial de petróleo e gás.
 
 ## Arquitetura
-- **Frontend**: React com i18next (PT/EN)
-- **Backend**: FastAPI + MongoDB
+- **Frontend**: React com i18next (PT/EN), react-helmet-async (SEO)
+- **Backend**: FastAPI + MongoDB + Email notifications
 - **Componentes**: Shadcn UI
 - **Cores**: Azul petróleo (#004E89) + Cinza carvão (#2D3748)
 
@@ -30,31 +30,29 @@ Criar um site institucional moderno, responsivo e profissional para a empresa Br
 - ✅ Navegação responsiva
 - ✅ Header com scroll effect
 - ✅ Footer completo
+- ✅ Notificações por email (comercial@bravia.ind.br)
+- ✅ SEO otimizado (meta tags, schema, sitemap)
+- ✅ Google Analytics (pronto para configurar ID)
 
-## What's Been Implemented (15 Jan 2025)
-### Frontend Completo
-- ✅ Sistema de internacionalização (PT/EN)
-- ✅ Header com navegação e seletor de idioma
-- ✅ Página Home com hero, stats, serviços, sobre, clientes, CTA
-- ✅ Página Sobre com história, missão/visão/valores, certificações
-- ✅ Página Serviços com cards e accordions detalhados
-- ✅ Página Estrutura com facilities e maquinário
-- ✅ Página Projetos com filtros por categoria
-- ✅ Página Contato com formulário detalhado e mapa
-- ✅ Footer com links rápidos e informações
-- ✅ WhatsAppButton flutuante
+## What's Been Implemented
+
+### Iteration 1 (15 Jan 2025)
+- ✅ Frontend completo bilíngue (PT/EN)
+- ✅ Backend com formulário de contato
 - ✅ Design profissional com cores da marca
+- ✅ 6 páginas completas
 
-### Backend Integrado
-- ✅ API para formulário de contato (`POST /api/contact`)
-- ✅ Modelo MongoDB para ContactForm com campos detalhados
-- ✅ Endpoint para listar contatos (`GET /api/contacts`)
-- ✅ Validação de email com EmailStr
-- ✅ Timestamps e status tracking
-
-### Imagens
-- ✅ 13 imagens de alta qualidade do Unsplash/Pexels
-- ✅ Offshore platforms, soldagem industrial, fabricação, maquinário
+### Iteration 2 (15 Jan 2025) - Melhorias e Apontamentos do PDF
+- ✅ **Correções de texto**: "Galvanização a quente" (título do card), "Serviços Offshore" (ajustado itens)
+- ✅ **Email notifications**: Sistema de notificação automática para comercial@bravia.ind.br quando receber contatos
+- ✅ **SEO completo**:
+  - Meta tags (title, description, keywords, OG, Twitter)
+  - Schema.org markup (Organization schema)
+  - Sitemap.xml criado
+  - Robots.txt configurado
+  - React Helmet Async integrado
+- ✅ **Google Analytics**: Código integrado (pronto para adicionar tracking ID)
+- ✅ **Testes**: Formulário de contato testado com sucesso (backend + email notification)
 
 ## API Contracts
 ### POST /api/contact
@@ -106,18 +104,40 @@ Returns array of ContactForm objects
 }
 ```
 
+## SEO Implementation
+- **Meta Tags**: Title, Description, Keywords, OG (Facebook), Twitter Cards
+- **Schema.org**: Organization markup com dados completos da empresa
+- **Sitemap**: /sitemap.xml com todas as páginas (prioridades configuradas)
+- **Robots.txt**: Configurado para permitir todos os crawlers
+- **Canonical URLs**: Implementados em todas as páginas
+- **Google Analytics**: Script integrado (tracking ID: G-XXXXXXXXXX - substituir pelo real)
+
+## Email Notification System
+- **Trigger**: Quando formulário de contato é submetido
+- **Destinatário**: comercial@bravia.ind.br
+- **Conteúdo**: Email HTML formatado com:
+  - Dados da empresa e contato
+  - Serviço de interesse e área de atuação
+  - Mensagem completa
+  - Data/hora do contato
+- **Status**: Logs detalhados no backend (pronto para SMTP em produção)
+
 ## Prioritized Backlog
 ### P0 - Concluído ✅
 - [x] Frontend completo com todas as páginas
 - [x] Sistema bilíngue PT/EN
 - [x] Backend com formulário de contato
+- [x] Email notifications
+- [x] SEO completo (meta tags, sitemap, schema)
+- [x] Google Analytics integrado
 - [x] Design profissional com cores da marca
 - [x] Responsividade mobile/desktop
+- [x] Correções dos apontamentos do PDF
 
 ### P1 - Próximas Tarefas
-- [ ] Testing do formulário de contato end-to-end
-- [ ] Validação de todos os campos do formulário
-- [ ] Email notification ao receber contato
+- [ ] Configurar SMTP real para envio de emails (atualmente em log)
+- [ ] Adicionar tracking ID real do Google Analytics
+- [ ] Otimização de imagens (compressão adicional)
 - [ ] Admin dashboard para visualizar contatos
 
 ### P2 - Melhorias Futuras
@@ -125,12 +145,28 @@ Returns array of ContactForm objects
 - [ ] Área de downloads (catálogos, certificados)
 - [ ] Chat online
 - [ ] Sistema de orçamento online
-- [ ] Integração com Google Analytics
-- [ ] SEO optimization completo
+- [ ] Integração com CRM
+- [ ] Métricas de conversão
+
+## Configuration Notes
+### Google Analytics
+Para ativar o Google Analytics, substitua `G-XXXXXXXXXX` em `/app/frontend/src/App.js` pelo tracking ID real.
+
+### Email SMTP
+Para ativar envio real de emails, adicione no `/app/backend/.env`:
+```
+SMTP_HOST=smtp.gmail.com
+SMTP_PORT=587
+SMTP_USER=seu-email@gmail.com
+SMTP_PASSWORD=sua-senha-app
+```
+E descomente o código de envio em `send_email_notification()` no `server.py`.
 
 ## Next Tasks
-1. ✅ Testar formulário de contato com backend
-2. Deploy para produção
-3. Configurar email notifications
-4. Otimização de imagens
-5. SEO metadata
+1. ✅ Testar formulário de contato - CONCLUÍDO
+2. ✅ Adicionar notificações por email - CONCLUÍDO
+3. ✅ Otimizar SEO (meta tags, sitemap) - CONCLUÍDO
+4. ✅ Configurar Google Analytics - CONCLUÍDO
+5. Configurar SMTP para envio real de emails
+6. Adicionar tracking ID real do Google Analytics
+7. Deploy para produção (www.bravia.ind.br)

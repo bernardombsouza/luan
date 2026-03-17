@@ -40,7 +40,7 @@ export const translations = {
           description: 'Soldagem especializada offshore e onshore com soldadores certificados',
         },
         coating: {
-          title: 'Revestimento',
+          title: 'Galvanização a quente',
           description: 'Galvanização a quente e frio, revestimento FBE e epoxy',
         },
         offshore: {

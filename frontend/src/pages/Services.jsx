@@ -82,10 +82,9 @@ const Services = () => {
         'Inspeção',
         'Solda & Caldeiraria',
         'Pintura',
-        'Construção & Montagem',
         'Usinagem',
+        'Montagem e Desmontagem de Andaime',
         'Reparo de Equipamentos Subsea',
-        'Montagem & Desmontagem',
       ],
     },
   ];
