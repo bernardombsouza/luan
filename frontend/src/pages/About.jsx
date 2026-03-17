@@ -32,7 +32,7 @@ const About = () => {
         <div
           className="absolute inset-0 bg-cover bg-center"
           style={{
-            backgroundImage: `url('https://images.unsplash.com/photo-1600221574280-9bcd5d108100?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjAzMjV8MHwxfHNlYXJjaHwzfHxvZmZzaG9yZSUyMHBsYXRmb3JtfGVufDB8fHx8MTc3Mzc2MDg5MXww&ixlib=rb-4.1.0&q=85')`,
+            backgroundImage: `url('https://images.unsplash.com/photo-1690508313456-bf8c851e8319')`,
           }}
         >
           <div className="absolute inset-0 bg-gradient-to-r from-[#2D3748]/95 to-[#004E89]/85"></div>
@@ -71,8 +71,8 @@ const About = () => {
             </div>
             <div>
               <img
-                src="https://images.unsplash.com/photo-1717386255773-1e3037c81788?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NTYxODF8MHwxfHNlYXJjaHwxfHxtYW51ZmFjdHVyaW5nJTIwZmFjaWxpdHl8ZW58MHx8fHwxNzczNzYwOTE3fDA&ixlib=rb-4.1.0&q=85"
-                alt="Facility"
+                src="https://images.unsplash.com/photo-1749073668528-38ab64575f5d"
+                alt="Plataforma Offshore Bravia"
                 className="rounded-lg shadow-xl object-cover w-full h-96"
               />
             </div>

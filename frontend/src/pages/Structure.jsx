@@ -44,7 +44,7 @@ const Structure = () => {
         <div
           className="absolute inset-0 bg-cover bg-center"
           style={{
-            backgroundImage: `url('https://images.pexels.com/photos/18568174/pexels-photo-18568174.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940')`,
+            backgroundImage: `url('https://images.unsplash.com/photo-1740362381367-09cb98b4e1c6')`,
           }}
         >
           <div className="absolute inset-0 bg-gradient-to-r from-[#2D3748]/95 to-[#004E89]/85"></div>
@@ -125,23 +125,23 @@ const Structure = () => {
             </div>
             <div className="grid grid-cols-2 gap-4">
               <img
-                src="https://images.unsplash.com/photo-1647427060118-4911c9821b82?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NTYxODF8MHwxfHNlYXJjaHwyfHxtYW51ZmFjdHVyaW5nJTIwZmFjaWxpdHl8ZW58MHx8fHwxNzczNzYwOTE3fDA&ixlib=rb-4.1.0&q=85"
-                alt="Machinery 1"
+                src="https://images.unsplash.com/photo-1740362381367-09cb98b4e1c6"
+                alt="Maquinário CNC"
                 className="rounded-lg object-cover h-48 w-full shadow-md"
               />
               <img
-                src="https://images.pexels.com/photos/162625/grinder-hitachi-power-tool-flexible-162625.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
-                alt="Machinery 2"
+                src="https://images.unsplash.com/photo-1701448149957-b96dbd1926ff"
+                alt="Usinagem de Precisão"
                 className="rounded-lg object-cover h-48 w-full shadow-md"
               />
               <img
-                src="https://images.unsplash.com/photo-1717386255773-1e3037c81788?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NTYxODF8MHwxfHNlYXJjaHwxfHxtYW51ZmFjdHVyaW5nJTIwZmFjaWxpdHl8ZW58MHx8fHwxNzczNzYwOTE3fDA&ixlib=rb-4.1.0&q=85"
-                alt="Machinery 3"
+                src="https://images.unsplash.com/photo-1682453945111-7c41592181a6"
+                alt="Processo Industrial"
                 className="rounded-lg object-cover h-48 w-full shadow-md"
               />
               <img
-                src="https://images.pexels.com/photos/236748/pexels-photo-236748.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
-                alt="Machinery 4"
+                src="https://images.unsplash.com/photo-1739117296710-6f1fb589cc08"
+                alt="Equipamentos"
                 className="rounded-lg object-cover h-48 w-full shadow-md"
               />
             </div>

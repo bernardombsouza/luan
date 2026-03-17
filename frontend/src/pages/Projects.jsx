@@ -10,62 +10,62 @@ const Projects = () => {
     {
       title: 'Ferramenta Lift-Sub',
       category: 'fabrication',
-      image: 'https://images.unsplash.com/photo-1531053326607-9d349096d887?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NTYxNzV8MHwxfHNlYXJjaHwxfHxtZXRhbCUyMGZhYnJpY2F0aW9ufGVufDB8fHx8MTc3Mzc2MDkxM3ww&ixlib=rb-4.1.0&q=85',
+      image: 'https://images.unsplash.com/photo-1701448149957-b96dbd1926ff',
     },
     {
       title: 'Dutos de Ventilação',
       category: 'fabrication',
-      image: 'https://images.unsplash.com/photo-1641893823219-38b433f736c0?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA2ODl8MHwxfHNlYXJjaHwyfHxpbmR1c3RyaWFsJTIwd2VsZGluZ3xlbnwwfHx8fDE3NzM3NjA5MDl8MA&ixlib=rb-4.1.0&q=85',
+      image: 'https://images.unsplash.com/photo-1739117296710-6f1fb589cc08',
     },
     {
       title: 'Plataforma Elevatória',
       category: 'fabrication',
-      image: 'https://images.pexels.com/photos/5845969/pexels-photo-5845969.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940',
+      image: 'https://images.unsplash.com/photo-1749073668528-38ab64575f5d',
     },
     {
       title: 'Sinete de Mergulho',
       category: 'repair',
-      image: 'https://images.unsplash.com/photo-1561536441-01351ded5ffd?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA2ODl8MHwxfHNlYXJjaHwxfHxpbmR1c3RyaWFsJTIwd2VsZGluZ3xlbnwwfHx8fDE3NzM3NjA5MDl8MA&ixlib=rb-4.1.0&q=85',
+      image: 'https://images.unsplash.com/photo-1770201524930-ad59cfacef16',
     },
     {
       title: 'JUNK CATCHER',
       category: 'repair',
-      image: 'https://images.unsplash.com/photo-1504917595217-d4dc5ebe6122?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NTYxNzV8MHwxfHNlYXJjaHwzfHxtZXRhbCUyMGZhYnJpY2F0aW9ufGVufDB8fHx8MTc3Mzc2MDkxM3ww&ixlib=rb-4.1.0&q=85',
+      image: 'https://images.unsplash.com/photo-1582635081932-3406d309f746',
     },
     {
       title: 'Spools',
       category: 'fabrication',
-      image: 'https://images.unsplash.com/photo-1647427060118-4911c9821b82?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NTYxODF8MHwxfHNlYXJjaHwyfHxtYW51ZmFjdHVyaW5nJTIwZmFjaWxpdHl8ZW58MHx8fHwxNzczNzYwOTE3fDA&ixlib=rb-4.1.0&q=85',
+      image: 'https://images.unsplash.com/photo-1561536441-01351ded5ffd',
     },
     {
       title: 'Polia do Pulley In',
       category: 'machining',
-      image: 'https://images.pexels.com/photos/162625/grinder-hitachi-power-tool-flexible-162625.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940',
+      image: 'https://images.unsplash.com/photo-1740362381367-09cb98b4e1c6',
     },
     {
       title: 'Stop Collar',
       category: 'fabrication',
-      image: 'https://images.unsplash.com/photo-1717386255773-1e3037c81788?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NTYxODF8MHwxfHNlYXJjaHwxfHxtYW51ZmFjdHVyaW5nJTIwZmFjaWxpdHl8ZW58MHx8fHwxNzczNzYwOTE3fDA&ixlib=rb-4.1.0&q=85',
+      image: 'https://images.unsplash.com/photo-1682453945111-7c41592181a6',
     },
     {
       title: 'Moitão do Guindaste',
       category: 'repair',
-      image: 'https://images.pexels.com/photos/236748/pexels-photo-236748.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940',
+      image: 'https://images.unsplash.com/photo-1739862824352-db9f3120057d',
     },
     {
       title: 'Dispositivo Sacar Rotor',
       category: 'fabrication',
-      image: 'https://images.unsplash.com/photo-1690508313456-bf8c851e8319?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA2ODl8MHwxfHNlYXJjaHwyfHxvZmZzaG9yZSUyMHBsYXRmb3JtfGVufDB8fHx8MTc3Mzc2MDg5MXww&ixlib=rb-4.1.0&q=85',
+      image: 'https://images.unsplash.com/photo-1690508313456-bf8c851e8319',
     },
     {
       title: 'Mesa de Extensão DPR',
       category: 'fabrication',
-      image: 'https://images.unsplash.com/photo-1600221574280-9bcd5d108100?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjAzMjV8MHwxfHNlYXJjaHwzfHxvZmZzaG9yZSUyMHBsYXRmb3JtfGVufDB8fHx8MTc3Mzc2MDg5MXww&ixlib=rb-4.1.0&q=85',
+      image: 'https://images.unsplash.com/photo-1749073668528-38ab64575f5d',
     },
     {
       title: 'Ferramenta de BOP 18.3/4"',
       category: 'machining',
-      image: 'https://images.pexels.com/photos/18568174/pexels-photo-18568174.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940',
+      image: 'https://images.unsplash.com/photo-1547186577-a3f4fa07c2ef',
     },
   ];
 
@@ -88,7 +88,7 @@ const Projects = () => {
         <div
           className="absolute inset-0 bg-cover bg-center"
           style={{
-            backgroundImage: `url('https://images.unsplash.com/photo-1578356058390-f58c575337a2?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjAzMjV8MHwxfHNlYXJjaHwxfHxvZmZzaG9yZSUyMHBsYXRmb3JtfGVufDB8fHx8MTc3Mzc2MDg5MXww&ixlib=rb-4.1.0&q=85')`,
+            backgroundImage: `url('https://images.unsplash.com/photo-1749073668528-38ab64575f5d')`,
           }}
         >
           <div className="absolute inset-0 bg-gradient-to-r from-[#2D3748]/95 to-[#004E89]/85"></div>

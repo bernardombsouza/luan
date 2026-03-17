@@ -96,7 +96,7 @@ const Services = () => {
         <div
           className="absolute inset-0 bg-cover bg-center"
           style={{
-            backgroundImage: `url('https://images.unsplash.com/photo-1561536441-01351ded5ffd?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA2ODl8MHwxfHNlYXJjaHwxfHxpbmR1c3RyaWFsJTIwd2VsZGluZ3xlbnwwfHx8fDE3NzM3NjA5MDl8MA&ixlib=rb-4.1.0&q=85')`,
+            backgroundImage: `url('https://images.unsplash.com/photo-1561536441-01351ded5ffd')`,
           }}
         >
           <div className="absolute inset-0 bg-gradient-to-r from-[#2D3748]/95 to-[#004E89]/85"></div>
@@ -199,18 +199,18 @@ const Services = () => {
         <div className="container mx-auto px-4">
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
             <img
-              src="https://images.pexels.com/photos/5845969/pexels-photo-5845969.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
-              alt="Service 1"
+              src="https://images.unsplash.com/photo-1561536441-01351ded5ffd"
+              alt="Soldagem Especializada"
               className="rounded-lg object-cover w-full h-64 shadow-md"
             />
             <img
-              src="https://images.unsplash.com/photo-1504917595217-d4dc5ebe6122?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NTYxNzV8MHwxfHNlYXJjaHwzfHxtZXRhbCUyMGZhYnJpY2F0aW9ufGVufDB8fHx8MTc3Mzc2MDkxM3ww&ixlib=rb-4.1.0&q=85"
-              alt="Service 2"
+              src="https://images.unsplash.com/photo-1701448149957-b96dbd1926ff"
+              alt="Usinagem CNC"
               className="rounded-lg object-cover w-full h-64 shadow-md"
             />
             <img
-              src="https://images.pexels.com/photos/236748/pexels-photo-236748.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
-              alt="Service 3"
+              src="https://images.unsplash.com/photo-1739862824352-db9f3120057d"
+              alt="Pintura Industrial"
               className="rounded-lg object-cover w-full h-64 shadow-md"
             />
           </div>

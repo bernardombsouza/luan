@@ -180,23 +180,23 @@ const Home = () => {
             </div>
             <div className="grid grid-cols-2 gap-4">
               <img
-                src="https://images.unsplash.com/photo-1641893823219-38b433f736c0?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA2ODl8MHwxfHNlYXJjaHwyfHxpbmR1c3RyaWFsJTIwd2VsZGluZ3xlbnwwfHx8fDE3NzM3NjA5MDl8MA&ixlib=rb-4.1.0&q=85"
-                alt="Industrial"
+                src="https://images.unsplash.com/photo-1561536441-01351ded5ffd"
+                alt="Soldagem Industrial"
                 className="rounded-lg object-cover h-64 w-full"
               />
               <img
-                src="https://images.unsplash.com/photo-1531053326607-9d349096d887?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NTYxNzV8MHwxfHNlYXJjaHwxfHxtZXRhbCUyMGZhYnJpY2F0aW9ufGVufDB8fHx8MTc3Mzc2MDkxM3ww&ixlib=rb-4.1.0&q=85"
-                alt="Fabrication"
+                src="https://images.unsplash.com/photo-1749073668528-38ab64575f5d"
+                alt="Plataforma Offshore"
                 className="rounded-lg object-cover h-64 w-full"
               />
               <img
-                src="https://images.pexels.com/photos/162625/grinder-hitachi-power-tool-flexible-162625.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
-                alt="Machinery"
+                src="https://images.unsplash.com/photo-1701448149957-b96dbd1926ff"
+                alt="Usinagem CNC"
                 className="rounded-lg object-cover h-64 w-full"
               />
               <img
-                src="https://images.unsplash.com/photo-1647427060118-4911c9821b82?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NTYxODF8MHwxfHNlYXJjaHwyfHxtYW51ZmFjdHVyaW5nJTIwZmFjaWxpdHl8ZW58MHx8fHwxNzczNzYwOTE3fDA&ixlib=rb-4.1.0&q=85"
-                alt="Facility"
+                src="https://images.unsplash.com/photo-1690508313456-bf8c851e8319"
+                alt="Estrutura Offshore"
                 className="rounded-lg object-cover h-64 w-full"
               />
             </div>
