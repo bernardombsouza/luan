@@ -1,0 +1,338 @@
+export const translations = {
+  pt: {
+    translation: {
+      // Header
+      nav: {
+        home: 'Home',
+        about: 'Sobre Nós',
+        services: 'Serviços',
+        structure: 'Estrutura',
+        projects: 'Projetos',
+        contact: 'Contato',
+      },
+      // Hero Section
+      hero: {
+        title: 'Engenharia de Excelência para o Setor de Petróleo e Gás',
+        subtitle: 'Soluções especializadas em fabricação offshore e subsea com mais de 20 anos de experiência',
+        cta: 'Solicitar Orçamento',
+        experience: '20+ Anos de Experiência',
+        clients: '11+ Clientes Ativos',
+        certification: 'ISO 9001:2015',
+      },
+      // Services
+      services: {
+        title: 'Nossos Serviços',
+        subtitle: 'Soluções completas em engenharia industrial',
+        engineering: {
+          title: 'Engenharia e Projetos',
+          description: 'Elaboração de projetos, cálculos estruturais e suporte técnico especializado',
+        },
+        fabrication: {
+          title: 'Fabricação de Estruturas',
+          description: 'Estruturas metálicas, equipamentos topside e subsea, cestas padrão DNV',
+        },
+        machining: {
+          title: 'Usinagem Industrial',
+          description: 'Serviços de usinagem de precisão com maquinário de alta tecnologia',
+        },
+        welding: {
+          title: 'Soldagem e Caldeiraria',
+          description: 'Soldagem especializada offshore e onshore com soldadores certificados',
+        },
+        coating: {
+          title: 'Revestimento',
+          description: 'Galvanização a quente e frio, revestimento FBE e epoxy',
+        },
+        offshore: {
+          title: 'Serviços Offshore',
+          description: 'Mão de obra qualificada e especializada para operações offshore',
+        },
+      },
+      // About
+      about: {
+        title: 'Sobre a Bravia',
+        history: 'Nossa História',
+        historyText: 'A Bravia Engenharia é uma empresa 100% brasileira com mais de 20 anos de experiência direta na manutenção e fabricação de equipamentos Topside e Subsea. Desde nossa fundação, somos reconhecidos pela qualidade, tradição e compromisso com a excelência.',
+        mission: 'Missão',
+        missionText: 'Garantir a satisfação do cliente seguindo os requisitos internacionais de qualidade e preservando a saúde, a segurança e o meio ambiente através de soluções inovadoras e estratégicas com foco na gestão de pessoas, de processos e tecnologia.',
+        vision: 'Visão',
+        visionText: 'Ser reconhecida por colaboradores, fornecedores e clientes como empresa referência em fabricação e reparo de equipamentos e estruturas metálicas e gerenciamento da integridade de ativos nos próximos 10 anos.',
+        values: 'Valores',
+        valuesList: [
+          'Segurança como premissa fundamental',
+          'Integridade e responsabilidade',
+          'Ética',
+          'Confiabilidade',
+          'Respeito',
+        ],
+        certifications: 'Certificações e Qualidade',
+        iso: 'ISO 9001:2015',
+        isoText: 'Certificada desde 2023 pela RINA/IQNET',
+        tuv: 'TÜV Rheinland',
+        tuvText: 'Aprovada com nota 99/100 em auditoria para Constellation',
+        entrion: 'Auditoria ENTRION',
+        entrionText: 'Nota QSMS: 95,44% | Nota Técnica: 97,00% para NOV-Houston',
+      },
+      // Structure
+      structure: {
+        title: 'Nossa Estrutura',
+        subtitle: 'Parque fabril completo e moderno',
+        production: 'Área de Produção',
+        productionSize: '1.200 m²',
+        productionText: 'Área dedicada para produção, inspeção e testes',
+        storage: 'Armazenamento',
+        storageSize: '7.000 m²',
+        storageText: 'Ampla área para estoque e logística',
+        office: 'Escritórios',
+        officeSize: '600 m²',
+        officeText: 'Suporte para FAT, certificação e equipe técnica',
+        crane: 'Ponte Rolante',
+        craneCapacity: '7 Toneladas',
+        craneText: 'Movimentação rápida e segura de cargas',
+        machinery: 'Maquinário',
+        machineryList: [
+          'Torno Vertical - Placa de 1400mm x 5 Ton',
+          'Furadeira Radial Rocco ISO 60',
+          'Fresadora Ferramenteira Pinnacle ISO 40',
+          'Mesa de Plasma CNC 3000 x 7000mm',
+          'Torno Romi Imor',
+        ],
+      },
+      // Projects
+      projects: {
+        title: 'Projetos Realizados',
+        subtitle: 'Cases de sucesso',
+        fabrication: 'Fabricação',
+        repair: 'Reparo',
+        machining: 'Usinagem',
+      },
+      // Clients
+      clients: {
+        title: 'Nossos Clientes',
+        subtitle: 'Parcerias de confiança no setor de óleo e gás',
+      },
+      // Contact
+      contact: {
+        title: 'Entre em Contato',
+        subtitle: 'Estamos prontos para atender sua empresa',
+        form: {
+          company: 'Empresa',
+          name: 'Nome',
+          email: 'E-mail',
+          phone: 'Telefone',
+          service: 'Serviço de Interesse',
+          selectService: 'Selecione um serviço',
+          area: 'Área de Atuação',
+          selectArea: 'Selecione uma área',
+          message: 'Mensagem',
+          send: 'Enviar Mensagem',
+          sending: 'Enviando...',
+          success: 'Mensagem enviada com sucesso!',
+          error: 'Erro ao enviar mensagem. Tente novamente.',
+        },
+        info: {
+          address: 'Endereço',
+          addressText: 'Rua Realengo, N.48, Cabiúnas, Galpão - Macaé, RJ - CEP: 27.977-320',
+          phone: 'Telefone',
+          email: 'E-mail',
+          hours: 'Horário de Atendimento',
+          hoursText: 'Segunda a Sexta: 8h às 18h',
+        },
+        serviceOptions: [
+          'Fabricação de Estruturas Metálicas',
+          'Usinagem Industrial',
+          'Soldagem e Caldeiraria',
+          'Serviços Offshore',
+          'Revestimento',
+          'Projetos de Engenharia',
+          'Outros',
+        ],
+        areaOptions: [
+          'Petróleo e Gás',
+          'Offshore',
+          'Subsea',
+          'Industrial',
+          'Manutenção',
+          'Outros',
+        ],
+      },
+      // Footer
+      footer: {
+        about: 'Sobre',
+        aboutText: 'Empresa 100% brasileira especializada em soluções de engenharia para o setor de petróleo e gás.',
+        quickLinks: 'Links Rápidos',
+        contact: 'Contato',
+        rights: 'Todos os direitos reservados.',
+        cnpj: 'CNPJ',
+      },
+    },
+  },
+  en: {
+    translation: {
+      // Header
+      nav: {
+        home: 'Home',
+        about: 'About Us',
+        services: 'Services',
+        structure: 'Structure',
+        projects: 'Projects',
+        contact: 'Contact',
+      },
+      // Hero Section
+      hero: {
+        title: 'Engineering Excellence for the Oil & Gas Sector',
+        subtitle: 'Specialized solutions in offshore and subsea manufacturing with over 20 years of experience',
+        cta: 'Request a Quote',
+        experience: '20+ Years of Experience',
+        clients: '11+ Active Clients',
+        certification: 'ISO 9001:2015',
+      },
+      // Services
+      services: {
+        title: 'Our Services',
+        subtitle: 'Complete industrial engineering solutions',
+        engineering: {
+          title: 'Engineering & Projects',
+          description: 'Project development, structural calculations and specialized technical support',
+        },
+        fabrication: {
+          title: 'Structure Fabrication',
+          description: 'Metal structures, topside and subsea equipment, DNV standard baskets',
+        },
+        machining: {
+          title: 'Industrial Machining',
+          description: 'Precision machining services with high-tech machinery',
+        },
+        welding: {
+          title: 'Welding & Boilermaking',
+          description: 'Specialized offshore and onshore welding with certified welders',
+        },
+        coating: {
+          title: 'Coating',
+          description: 'Hot and cold galvanization, FBE coating and epoxy',
+        },
+        offshore: {
+          title: 'Offshore Services',
+          description: 'Qualified and specialized workforce for offshore operations',
+        },
+      },
+      // About
+      about: {
+        title: 'About Bravia',
+        history: 'Our History',
+        historyText: 'Bravia Engenharia is a 100% Brazilian company with over 20 years of direct experience in maintenance and manufacturing of Topside and Subsea equipment. Since our foundation, we are recognized for quality, tradition and commitment to excellence.',
+        mission: 'Mission',
+        missionText: 'To ensure customer satisfaction following international quality requirements and preserving health, safety and the environment through innovative and strategic solutions focused on people, process and technology management.',
+        vision: 'Vision',
+        visionText: 'To be recognized by employees, suppliers and customers as a reference company in manufacturing and repair of equipment and metal structures and asset integrity management within the next 10 years.',
+        values: 'Values',
+        valuesList: [
+          'Safety as a fundamental premise',
+          'Integrity and responsibility',
+          'Ethics',
+          'Reliability',
+          'Respect',
+        ],
+        certifications: 'Certifications & Quality',
+        iso: 'ISO 9001:2015',
+        isoText: 'Certified since 2023 by RINA/IQNET',
+        tuv: 'TÜV Rheinland',
+        tuvText: 'Approved with 99/100 score in Constellation audit',
+        entrion: 'ENTRION Audit',
+        entrionText: 'QSMS Score: 95.44% | Technical Score: 97.00% for NOV-Houston',
+      },
+      // Structure
+      structure: {
+        title: 'Our Structure',
+        subtitle: 'Complete and modern manufacturing facility',
+        production: 'Production Area',
+        productionSize: '1,200 m²',
+        productionText: 'Dedicated area for production, inspection and testing',
+        storage: 'Storage',
+        storageSize: '7,000 m²',
+        storageText: 'Large area for stock and logistics',
+        office: 'Offices',
+        officeSize: '600 m²',
+        officeText: 'Support for FAT, certification and technical team',
+        crane: 'Overhead Crane',
+        craneCapacity: '7 Tons',
+        craneText: 'Fast and safe load handling',
+        machinery: 'Machinery',
+        machineryList: [
+          'Vertical Lathe - 1400mm plate x 5 Ton',
+          'Radial Drill Rocco ISO 60',
+          'Toolmaker Milling Machine Pinnacle ISO 40',
+          'CNC Plasma Table 3000 x 7000mm',
+          'Romi Imor Lathe',
+        ],
+      },
+      // Projects
+      projects: {
+        title: 'Completed Projects',
+        subtitle: 'Success cases',
+        fabrication: 'Fabrication',
+        repair: 'Repair',
+        machining: 'Machining',
+      },
+      // Clients
+      clients: {
+        title: 'Our Clients',
+        subtitle: 'Trusted partnerships in the oil & gas sector',
+      },
+      // Contact
+      contact: {
+        title: 'Get in Touch',
+        subtitle: 'We are ready to serve your company',
+        form: {
+          company: 'Company',
+          name: 'Name',
+          email: 'Email',
+          phone: 'Phone',
+          service: 'Service of Interest',
+          selectService: 'Select a service',
+          area: 'Area of Operation',
+          selectArea: 'Select an area',
+          message: 'Message',
+          send: 'Send Message',
+          sending: 'Sending...',
+          success: 'Message sent successfully!',
+          error: 'Error sending message. Please try again.',
+        },
+        info: {
+          address: 'Address',
+          addressText: 'Rua Realengo, N.48, Cabiúnas, Galpão - Macaé, RJ - Brazil - ZIP: 27.977-320',
+          phone: 'Phone',
+          email: 'Email',
+          hours: 'Business Hours',
+          hoursText: 'Monday to Friday: 8 AM to 6 PM',
+        },
+        serviceOptions: [
+          'Metal Structure Fabrication',
+          'Industrial Machining',
+          'Welding & Boilermaking',
+          'Offshore Services',
+          'Coating',
+          'Engineering Projects',
+          'Others',
+        ],
+        areaOptions: [
+          'Oil & Gas',
+          'Offshore',
+          'Subsea',
+          'Industrial',
+          'Maintenance',
+          'Others',
+        ],
+      },
+      // Footer
+      footer: {
+        about: 'About',
+        aboutText: '100% Brazilian company specialized in engineering solutions for the oil & gas sector.',
+        quickLinks: 'Quick Links',
+        contact: 'Contact',
+        rights: 'All rights reserved.',
+        cnpj: 'CNPJ',
+      },
+    },
+  },
+};
