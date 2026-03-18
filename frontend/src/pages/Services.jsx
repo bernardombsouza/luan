@@ -201,17 +201,17 @@ const Services = () => {
             <img
               src="https://customer-assets.emergentagent.com/job_oil-gas-solutions-1/artifacts/m87pxnii_PROJETOS%20-%20M%C3%83O%20DE%20OBRA%20-%20SOLDA%20DE%20ESTRUTURA.jpeg"
               alt="Soldagem Bravia"
-              className="rounded-lg object-cover w-full h-64 shadow-md"
+              className="rounded-lg object-contain w-full h-64 shadow-md bg-gray-100"
             />
             <img
               src="https://customer-assets.emergentagent.com/job_oil-gas-solutions-1/artifacts/v25n9tep_PROJETOS%20-%20M%C3%83O%20DE%20OBRA%20-%20MANUTEN%C3%87%C3%83O%20DE%20DAMPERS.jpeg"
               alt="Manutenção Industrial"
-              className="rounded-lg object-cover w-full h-64 shadow-md"
+              className="rounded-lg object-contain w-full h-64 shadow-md bg-gray-100"
             />
             <img
               src="https://customer-assets.emergentagent.com/job_oil-gas-solutions-1/artifacts/9fgtr1gv_PROJETOS%20-%20M%C3%83O%20DE%20OBRA%20-%20PINTURA%20DE%20PRESERVA%C3%87%C3%83O.jpeg"
               alt="Pintura Industrial Bravia"
-              className="rounded-lg object-cover w-full h-64 shadow-md"
+              className="rounded-lg object-contain w-full h-64 shadow-md bg-gray-100"
             />
           </div>
         </div>

@@ -7,10 +7,16 @@ const Projects = () => {
   const [selectedFilter, setSelectedFilter] = useState('all');
 
   const projects = [
+    // FABRICAÇÃO (10 fotos)
     {
-      title: 'Ferramenta Lift-Sub',
+      title: 'Cavalete de Tubos',
       category: 'fabrication',
-      image: 'https://customer-assets.emergentagent.com/job_oil-gas-solutions-1/artifacts/275pvkdw_PROJETOS%20-%20FABRICA%C3%87%C3%83O%20-%20FERRAMENTA%20LIFT%20SUB.png',
+      image: 'https://customer-assets.emergentagent.com/job_oil-gas-solutions-1/artifacts/neqg672v_PROJETOS%20-%20FABRICA%C3%87%C3%83O%20-%20CAVALETE%20DE%20TUBOS.jpeg',
+    },
+    {
+      title: 'Drop Sheed ADMarine',
+      category: 'fabrication',
+      image: 'https://customer-assets.emergentagent.com/job_oil-gas-solutions-1/artifacts/4gw4iexn_PROJETOS%20-%20FABRICA%C3%87%C3%83O%20-%20DROP%20SHEED.jpeg',
     },
     {
       title: 'Dutos de Ventilação',
@@ -18,19 +24,24 @@ const Projects = () => {
       image: 'https://customer-assets.emergentagent.com/job_oil-gas-solutions-1/artifacts/t07m6g69_PROJETOS%20-%20FABRICA%C3%87%C3%83O%20-%20DUTOS%20DE%20VENTILA%C3%87%C3%83O.png',
     },
     {
+      title: 'Ferramenta Lift-Sub',
+      category: 'fabrication',
+      image: 'https://customer-assets.emergentagent.com/job_oil-gas-solutions-1/artifacts/275pvkdw_PROJETOS%20-%20FABRICA%C3%87%C3%83O%20-%20FERRAMENTA%20LIFT%20SUB.png',
+    },
+    {
+      title: 'Hands Free',
+      category: 'fabrication',
+      image: 'https://customer-assets.emergentagent.com/job_oil-gas-solutions-1/artifacts/n6py74fq_PROJETOS%20-%20FABRICA%C3%87%C3%83O%20-%20HANDS%20FREE.jpeg',
+    },
+    {
       title: 'Passarela PRS Drill Floor',
       category: 'fabrication',
       image: 'https://customer-assets.emergentagent.com/job_oil-gas-solutions-1/artifacts/hnufjitn_PROJETOS%20-%20FABRICA%C3%87%C3%83O%20-%20PASSARELA.png',
     },
     {
-      title: 'Vaso de Pressão (NR-13)',
-      category: 'repair',
-      image: 'https://customer-assets.emergentagent.com/job_oil-gas-solutions-1/artifacts/1tfkxmez_PROJETOS%20-%20REPARO%20-%20VASO%20DE%20PRESS%C3%83O.png',
-    },
-    {
-      title: 'Moitão do Guindaste',
-      category: 'repair',
-      image: 'https://customer-assets.emergentagent.com/job_oil-gas-solutions-1/artifacts/qh52i57p_PROJETOS%20-%20REPARO%20-%20MOIT%C3%83O%20DO%20GUINDASTE.png',
+      title: 'Sheave House',
+      category: 'fabrication',
+      image: 'https://customer-assets.emergentagent.com/job_oil-gas-solutions-1/artifacts/zw6hj7fp_PROJETOS%20-%20FABRICA%C3%87%C3%83O%20-%20SHEAVE%20HOUSE.png',
     },
     {
       title: 'Spools Industriais',
@@ -38,14 +49,61 @@ const Projects = () => {
       image: 'https://customer-assets.emergentagent.com/job_oil-gas-solutions-1/artifacts/kzro25p9_PROJETOS%20-%20FABRICA%C3%87%C3%83O%20-%20SPOOLS.png',
     },
     {
-      title: 'Gabaritos de Precisão',
-      category: 'machining',
-      image: 'https://customer-assets.emergentagent.com/job_oil-gas-solutions-1/artifacts/cp07nwxk_PROJETOS%20-%20USINAGEM%20-%20GABARITOS.png',
-    },
-    {
       title: 'Stop Collar',
       category: 'fabrication',
       image: 'https://customer-assets.emergentagent.com/job_oil-gas-solutions-1/artifacts/9o8krwnh_PROJETOS%20-%20FABRICA%C3%87%C3%83O%20-%20STOP%20COLLOR.jpeg',
+    },
+    {
+      title: 'Suporte da Polia do Guindaste',
+      category: 'fabrication',
+      image: 'https://customer-assets.emergentagent.com/job_oil-gas-solutions-1/artifacts/dgwgfmwy_PROJETOS%20-%20FABRICA%C3%87%C3%83O%20-%20SUPORTE%20DA%20POLIA%20DO%20GUINDASTE.png',
+    },
+    // MÃO DE OBRA (8 fotos)
+    {
+      title: 'Adequação NR-13',
+      category: 'workforce',
+      image: 'https://customer-assets.emergentagent.com/job_oil-gas-solutions-1/artifacts/tcbzm8qs_PROJETOS%20-%20M%C3%83O%20DE%20OBRA%20-%20ADEQUA%C3%87%C3%83O%20NR%2013.jpeg',
+    },
+    {
+      title: 'Caldeiraria',
+      category: 'workforce',
+      image: 'https://customer-assets.emergentagent.com/job_oil-gas-solutions-1/artifacts/g3x6n5hk_PROJETOS%20-%20M%C3%83O%20DE%20OBRA%20-%20CALDEIRARIA.jpeg',
+    },
+    {
+      title: 'Dutos de Refrigeração',
+      category: 'workforce',
+      image: 'https://customer-assets.emergentagent.com/job_oil-gas-solutions-1/artifacts/z830qayg_PROJETOS%20-%20M%C3%83O%20DE%20OBRA%20-%20DUTOS%20DE%20REFRIGERA%C3%87%C3%83O.jpeg',
+    },
+    {
+      title: 'Manutenção de Dampers',
+      category: 'workforce',
+      image: 'https://customer-assets.emergentagent.com/job_oil-gas-solutions-1/artifacts/v25n9tep_PROJETOS%20-%20M%C3%83O%20DE%20OBRA%20-%20MANUTEN%C3%87%C3%83O%20DE%20DAMPERS.jpeg',
+    },
+    {
+      title: 'Mecânica',
+      category: 'workforce',
+      image: 'https://customer-assets.emergentagent.com/job_oil-gas-solutions-1/artifacts/quqasq98_PROJETOS%20-%20M%C3%83O%20DE%20OBRA%20-%20MECANICA.jpeg',
+    },
+    {
+      title: 'Pintura de Preservação',
+      category: 'workforce',
+      image: 'https://customer-assets.emergentagent.com/job_oil-gas-solutions-1/artifacts/9fgtr1gv_PROJETOS%20-%20M%C3%83O%20DE%20OBRA%20-%20PINTURA%20DE%20PRESERVA%C3%87%C3%83O.jpeg',
+    },
+    {
+      title: 'Solda de Estrutura',
+      category: 'workforce',
+      image: 'https://customer-assets.emergentagent.com/job_oil-gas-solutions-1/artifacts/m87pxnii_PROJETOS%20-%20M%C3%83O%20DE%20OBRA%20-%20SOLDA%20DE%20ESTRUTURA.jpeg',
+    },
+    {
+      title: 'Substituição de Dutos',
+      category: 'workforce',
+      image: 'https://customer-assets.emergentagent.com/job_oil-gas-solutions-1/artifacts/9d5b78tt_PROJETOS%20-%20M%C3%83O%20DE%20OBRA%20-%20SUBSTITUI%C3%87%C3%83O%20DE%20DUTOS.jpeg',
+    },
+    // REPARO (6 fotos)
+    {
+      title: 'Crossover',
+      category: 'repair',
+      image: 'https://customer-assets.emergentagent.com/job_oil-gas-solutions-1/artifacts/a0vuhqth_PROJETOS%20-%20REPARO%20-%20CROSSOVER.png',
     },
     {
       title: 'Flanges Especiais',
@@ -54,24 +112,61 @@ const Projects = () => {
     },
     {
       title: 'Lift Frame',
-      category: 'fabrication',
+      category: 'repair',
       image: 'https://customer-assets.emergentagent.com/job_oil-gas-solutions-1/artifacts/g6s0ss7r_PROJETOS%20-%20REPARO%20-%20LIFT%20FRAME.png',
     },
     {
-      title: 'Drop Sheed ADMarine',
-      category: 'fabrication',
-      image: 'https://customer-assets.emergentagent.com/job_oil-gas-solutions-1/artifacts/4gw4iexn_PROJETOS%20-%20FABRICA%C3%87%C3%83O%20-%20DROP%20SHEED.jpeg',
+      title: 'Moitão do Guindaste',
+      category: 'repair',
+      image: 'https://customer-assets.emergentagent.com/job_oil-gas-solutions-1/artifacts/qh52i57p_PROJETOS%20-%20REPARO%20-%20MOIT%C3%83O%20DO%20GUINDASTE.png',
+    },
+    {
+      title: 'Pistão',
+      category: 'repair',
+      image: 'https://customer-assets.emergentagent.com/job_oil-gas-solutions-1/artifacts/or8gwsyo_PROJETOS%20-%20REPARO%20-%20PIST%C3%83O.png',
+    },
+    {
+      title: 'Vaso de Pressão (NR-13)',
+      category: 'repair',
+      image: 'https://customer-assets.emergentagent.com/job_oil-gas-solutions-1/artifacts/1tfkxmez_PROJETOS%20-%20REPARO%20-%20VASO%20DE%20PRESS%C3%83O.png',
+    },
+    // USINAGEM (6 fotos)
+    {
+      title: 'Adaptadores de Bronze',
+      category: 'machining',
+      image: 'https://customer-assets.emergentagent.com/job_oil-gas-solutions-1/artifacts/m3jepjr6_PROJETOS%20-%20USINAGEM%20-%20ADAPTADORES%20DE%20BRONZE.jpeg',
+    },
+    {
+      title: 'Adaptador de Polia',
+      category: 'machining',
+      image: 'https://customer-assets.emergentagent.com/job_oil-gas-solutions-1/artifacts/ebg8zxab_PROJETOS%20-%20USINAGEM%20-%20ADPATADOR.png',
+    },
+    {
+      title: 'Esticador',
+      category: 'machining',
+      image: 'https://customer-assets.emergentagent.com/job_oil-gas-solutions-1/artifacts/bj9ngo29_PROJETOS%20-%20USINAGEM%20-%20ESTICADOR.jpeg',
     },
     {
       title: 'Ferramenta de BOP 18.3/4"',
       category: 'machining',
       image: 'https://customer-assets.emergentagent.com/job_oil-gas-solutions-1/artifacts/07442jxb_PROJETOS%20-%20USINAGEM%20-%20FERRAMENTA%20DO%20BOP.png',
     },
+    {
+      title: 'Gabaritos de Precisão',
+      category: 'machining',
+      image: 'https://customer-assets.emergentagent.com/job_oil-gas-solutions-1/artifacts/cp07nwxk_PROJETOS%20-%20USINAGEM%20-%20GABARITOS.png',
+    },
+    {
+      title: 'Pino Riser',
+      category: 'machining',
+      image: 'https://customer-assets.emergentagent.com/job_oil-gas-solutions-1/artifacts/b5l3f4wa_PROJETOS%20-%20USINAGEM%20-%20PINO%20RISER.png',
+    },
   ];
 
   const filters = [
     { value: 'all', label: 'Todos os Projetos' },
     { value: 'fabrication', label: t('projects.fabrication') },
+    { value: 'workforce', label: 'Mão de Obra' },
     { value: 'repair', label: t('projects.repair') },
     { value: 'machining', label: t('projects.machining') },
   ];
@@ -133,11 +228,11 @@ const Projects = () => {
                 key={index}
                 className="group bg-white rounded-lg overflow-hidden shadow-md hover:shadow-xl transition-all duration-300"
               >
-                <div className="relative h-64 overflow-hidden">
+                <div className="relative h-64 overflow-hidden bg-gray-100">
                   <img
                     src={project.image}
                     alt={project.title}
-                    className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300"
+                    className="w-full h-full object-contain group-hover:scale-105 transition-transform duration-300"
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-[#2D3748]/80 to-transparent opacity-0 group-hover:opacity-100 transition-opacity"></div>
                 </div>
@@ -147,6 +242,7 @@ const Projects = () => {
                     className="mb-3 border-[#004E89] text-[#004E89]"
                   >
                     {project.category === 'fabrication' && t('projects.fabrication')}
+                    {project.category === 'workforce' && 'Mão de Obra'}
                     {project.category === 'repair' && t('projects.repair')}
                     {project.category === 'machining' && t('projects.machining')}
                   </Badge>

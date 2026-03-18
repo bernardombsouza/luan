@@ -127,22 +127,22 @@ const Structure = () => {
               <img
                 src="https://customer-assets.emergentagent.com/job_oil-gas-solutions-1/artifacts/itn3kerp_ESTRUTURA%20-%20MAQUINARIO%20-%20FRESA.png"
                 alt="Fresadora Pinnacle Bravia"
-                className="rounded-lg object-cover h-48 w-full shadow-md"
+                className="rounded-lg object-contain h-48 w-full shadow-md bg-gray-100"
               />
               <img
                 src="https://customer-assets.emergentagent.com/job_oil-gas-solutions-1/artifacts/88hirr5m_ESTRUTURA%20-%20MAQUINARIO%20-%20FURADEIRA.png"
                 alt="Furadeira Radial Bravia"
-                className="rounded-lg object-cover h-48 w-full shadow-md"
+                className="rounded-lg object-contain h-48 w-full shadow-md bg-gray-100"
               />
               <img
                 src="https://customer-assets.emergentagent.com/job_oil-gas-solutions-1/artifacts/byn5xjy8_ESTRUTURA%20-%20MAQUINARIO%20-%20TORNO%20HORIZONTAL.png"
                 alt="Torno Horizontal Romi"
-                className="rounded-lg object-cover h-48 w-full shadow-md"
+                className="rounded-lg object-contain h-48 w-full shadow-md bg-gray-100"
               />
               <img
                 src="https://customer-assets.emergentagent.com/job_oil-gas-solutions-1/artifacts/jsqivrih_ESTRUTURA%20-%20MAQUINARIO%20-%20TORNO%20VERTICAL.png"
                 alt="Torno Vertical AtlasMao"
-                className="rounded-lg object-cover h-48 w-full shadow-md"
+                className="rounded-lg object-contain h-48 w-full shadow-md bg-gray-100"
               />
             </div>
           </div>

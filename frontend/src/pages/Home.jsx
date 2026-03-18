@@ -182,22 +182,22 @@ const Home = () => {
               <img
                 src="https://customer-assets.emergentagent.com/job_oil-gas-solutions-1/artifacts/h2bafgig_HOME%20-%20SOBRE%20A%20BRAVIA%20-%20BASE.png"
                 alt="Parque Fabril Bravia"
-                className="rounded-lg object-cover h-64 w-full"
+                className="rounded-lg object-contain h-64 w-full bg-gray-100"
               />
               <img
                 src="https://customer-assets.emergentagent.com/job_oil-gas-solutions-1/artifacts/8dalkc4m_HOME%20-%20SOBRE%20A%20BRAVIA%20-%20PROJETOS.png"
                 alt="Projetos de Engenharia"
-                className="rounded-lg object-cover h-64 w-full"
+                className="rounded-lg object-contain h-64 w-full bg-gray-100"
               />
               <img
                 src="https://customer-assets.emergentagent.com/job_oil-gas-solutions-1/artifacts/ngqn5xu2_HOME%20-%20SOBRE%20A%20BRAVIA%20-%20SERVI%C3%87O%20DE%20BASE.png"
                 alt="Soldagem Bravia"
-                className="rounded-lg object-cover h-64 w-full"
+                className="rounded-lg object-contain h-64 w-full bg-gray-100"
               />
               <img
                 src="https://customer-assets.emergentagent.com/job_oil-gas-solutions-1/artifacts/fva8v4lq_HOME%20-%20SOBRE%20A%20BRAVIA%20-%20SERVI%C3%87O%20DE%20MAO%20DE%20OBRA.jpeg"
                 alt="Serviços Offshore Bravia"
-                className="rounded-lg object-cover h-64 w-full"
+                className="rounded-lg object-contain h-64 w-full bg-gray-100"
               />
             </div>
           </div>

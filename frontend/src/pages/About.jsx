@@ -71,9 +71,9 @@ const About = () => {
             </div>
             <div>
               <img
-                src="https://customer-assets.emergentagent.com/job_oil-gas-solutions-1/artifacts/g3x6n5hk_PROJETOS%20-%20M%C3%83O%20DE%20OBRA%20-%20CALDEIRARIA.jpeg"
-                alt="Equipe Bravia Trabalhando"
-                className="rounded-lg shadow-xl object-cover w-full h-96"
+                src="https://customer-assets.emergentagent.com/job_oil-gas-solutions-1/artifacts/6uw5np7q_SOBRE%20NOS%20-%20NOSSA%20HISTORIA%20-%20FOTO%20DA%20BASE.jpg"
+                alt="Parque Fabril Completo Bravia"
+                className="rounded-lg shadow-xl object-contain w-full h-96 bg-gray-100"
               />
             </div>
           </div>
