@@ -32,7 +32,7 @@ const About = () => {
         <div
           className="absolute inset-0 bg-cover bg-center"
           style={{
-            backgroundImage: `url('https://images.unsplash.com/photo-1690508313456-bf8c851e8319')`,
+            backgroundImage: `url('https://customer-assets.emergentagent.com/job_oil-gas-solutions-1/artifacts/6uw5np7q_SOBRE%20NOS%20-%20NOSSA%20HISTORIA%20-%20FOTO%20DA%20BASE.jpg')`,
           }}
         >
           <div className="absolute inset-0 bg-gradient-to-r from-[#2D3748]/95 to-[#004E89]/85"></div>
@@ -71,8 +71,8 @@ const About = () => {
             </div>
             <div>
               <img
-                src="https://images.unsplash.com/photo-1749073668528-38ab64575f5d"
-                alt="Plataforma Offshore Bravia"
+                src="https://customer-assets.emergentagent.com/job_oil-gas-solutions-1/artifacts/g3x6n5hk_PROJETOS%20-%20M%C3%83O%20DE%20OBRA%20-%20CALDEIRARIA.jpeg"
+                alt="Equipe Bravia Trabalhando"
                 className="rounded-lg shadow-xl object-cover w-full h-96"
               />
             </div>

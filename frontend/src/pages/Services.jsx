@@ -96,7 +96,7 @@ const Services = () => {
         <div
           className="absolute inset-0 bg-cover bg-center"
           style={{
-            backgroundImage: `url('https://images.unsplash.com/photo-1561536441-01351ded5ffd')`,
+            backgroundImage: `url('https://customer-assets.emergentagent.com/job_oil-gas-solutions-1/artifacts/ngqn5xu2_HOME%20-%20SOBRE%20A%20BRAVIA%20-%20SERVI%C3%87O%20DE%20BASE.png')`,
           }}
         >
           <div className="absolute inset-0 bg-gradient-to-r from-[#2D3748]/95 to-[#004E89]/85"></div>
@@ -199,18 +199,18 @@ const Services = () => {
         <div className="container mx-auto px-4">
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
             <img
-              src="https://images.unsplash.com/photo-1561536441-01351ded5ffd"
-              alt="Soldagem Especializada"
+              src="https://customer-assets.emergentagent.com/job_oil-gas-solutions-1/artifacts/m87pxnii_PROJETOS%20-%20M%C3%83O%20DE%20OBRA%20-%20SOLDA%20DE%20ESTRUTURA.jpeg"
+              alt="Soldagem Bravia"
               className="rounded-lg object-cover w-full h-64 shadow-md"
             />
             <img
-              src="https://images.unsplash.com/photo-1701448149957-b96dbd1926ff"
-              alt="Usinagem CNC"
+              src="https://customer-assets.emergentagent.com/job_oil-gas-solutions-1/artifacts/v25n9tep_PROJETOS%20-%20M%C3%83O%20DE%20OBRA%20-%20MANUTEN%C3%87%C3%83O%20DE%20DAMPERS.jpeg"
+              alt="Manutenção Industrial"
               className="rounded-lg object-cover w-full h-64 shadow-md"
             />
             <img
-              src="https://images.unsplash.com/photo-1739862824352-db9f3120057d"
-              alt="Pintura Industrial"
+              src="https://customer-assets.emergentagent.com/job_oil-gas-solutions-1/artifacts/9fgtr1gv_PROJETOS%20-%20M%C3%83O%20DE%20OBRA%20-%20PINTURA%20DE%20PRESERVA%C3%87%C3%83O.jpeg"
+              alt="Pintura Industrial Bravia"
               className="rounded-lg object-cover w-full h-64 shadow-md"
             />
           </div>

@@ -10,62 +10,62 @@ const Projects = () => {
     {
       title: 'Ferramenta Lift-Sub',
       category: 'fabrication',
-      image: 'https://images.unsplash.com/photo-1701448149957-b96dbd1926ff',
+      image: 'https://customer-assets.emergentagent.com/job_oil-gas-solutions-1/artifacts/275pvkdw_PROJETOS%20-%20FABRICA%C3%87%C3%83O%20-%20FERRAMENTA%20LIFT%20SUB.png',
     },
     {
       title: 'Dutos de Ventilação',
       category: 'fabrication',
-      image: 'https://images.unsplash.com/photo-1739117296710-6f1fb589cc08',
+      image: 'https://customer-assets.emergentagent.com/job_oil-gas-solutions-1/artifacts/t07m6g69_PROJETOS%20-%20FABRICA%C3%87%C3%83O%20-%20DUTOS%20DE%20VENTILA%C3%87%C3%83O.png',
     },
     {
-      title: 'Plataforma Elevatória',
+      title: 'Passarela PRS Drill Floor',
       category: 'fabrication',
-      image: 'https://images.unsplash.com/photo-1749073668528-38ab64575f5d',
+      image: 'https://customer-assets.emergentagent.com/job_oil-gas-solutions-1/artifacts/hnufjitn_PROJETOS%20-%20FABRICA%C3%87%C3%83O%20-%20PASSARELA.png',
     },
     {
-      title: 'Sinete de Mergulho',
+      title: 'Vaso de Pressão (NR-13)',
       category: 'repair',
-      image: 'https://images.unsplash.com/photo-1770201524930-ad59cfacef16',
-    },
-    {
-      title: 'JUNK CATCHER',
-      category: 'repair',
-      image: 'https://images.unsplash.com/photo-1582635081932-3406d309f746',
-    },
-    {
-      title: 'Spools',
-      category: 'fabrication',
-      image: 'https://images.unsplash.com/photo-1561536441-01351ded5ffd',
-    },
-    {
-      title: 'Polia do Pulley In',
-      category: 'machining',
-      image: 'https://images.unsplash.com/photo-1740362381367-09cb98b4e1c6',
-    },
-    {
-      title: 'Stop Collar',
-      category: 'fabrication',
-      image: 'https://images.unsplash.com/photo-1682453945111-7c41592181a6',
+      image: 'https://customer-assets.emergentagent.com/job_oil-gas-solutions-1/artifacts/1tfkxmez_PROJETOS%20-%20REPARO%20-%20VASO%20DE%20PRESS%C3%83O.png',
     },
     {
       title: 'Moitão do Guindaste',
       category: 'repair',
-      image: 'https://images.unsplash.com/photo-1739862824352-db9f3120057d',
+      image: 'https://customer-assets.emergentagent.com/job_oil-gas-solutions-1/artifacts/qh52i57p_PROJETOS%20-%20REPARO%20-%20MOIT%C3%83O%20DO%20GUINDASTE.png',
     },
     {
-      title: 'Dispositivo Sacar Rotor',
+      title: 'Spools Industriais',
       category: 'fabrication',
-      image: 'https://images.unsplash.com/photo-1690508313456-bf8c851e8319',
+      image: 'https://customer-assets.emergentagent.com/job_oil-gas-solutions-1/artifacts/kzro25p9_PROJETOS%20-%20FABRICA%C3%87%C3%83O%20-%20SPOOLS.png',
     },
     {
-      title: 'Mesa de Extensão DPR',
+      title: 'Gabaritos de Precisão',
+      category: 'machining',
+      image: 'https://customer-assets.emergentagent.com/job_oil-gas-solutions-1/artifacts/cp07nwxk_PROJETOS%20-%20USINAGEM%20-%20GABARITOS.png',
+    },
+    {
+      title: 'Stop Collar',
       category: 'fabrication',
-      image: 'https://images.unsplash.com/photo-1749073668528-38ab64575f5d',
+      image: 'https://customer-assets.emergentagent.com/job_oil-gas-solutions-1/artifacts/9o8krwnh_PROJETOS%20-%20FABRICA%C3%87%C3%83O%20-%20STOP%20COLLOR.jpeg',
+    },
+    {
+      title: 'Flanges Especiais',
+      category: 'repair',
+      image: 'https://customer-assets.emergentagent.com/job_oil-gas-solutions-1/artifacts/dyhcal68_PROJETOS%20-%20REPARO%20-%20FLANGES.png',
+    },
+    {
+      title: 'Lift Frame',
+      category: 'fabrication',
+      image: 'https://customer-assets.emergentagent.com/job_oil-gas-solutions-1/artifacts/g6s0ss7r_PROJETOS%20-%20REPARO%20-%20LIFT%20FRAME.png',
+    },
+    {
+      title: 'Drop Sheed ADMarine',
+      category: 'fabrication',
+      image: 'https://customer-assets.emergentagent.com/job_oil-gas-solutions-1/artifacts/4gw4iexn_PROJETOS%20-%20FABRICA%C3%87%C3%83O%20-%20DROP%20SHEED.jpeg',
     },
     {
       title: 'Ferramenta de BOP 18.3/4"',
       category: 'machining',
-      image: 'https://images.unsplash.com/photo-1547186577-a3f4fa07c2ef',
+      image: 'https://customer-assets.emergentagent.com/job_oil-gas-solutions-1/artifacts/07442jxb_PROJETOS%20-%20USINAGEM%20-%20FERRAMENTA%20DO%20BOP.png',
     },
   ];
 
@@ -88,7 +88,7 @@ const Projects = () => {
         <div
           className="absolute inset-0 bg-cover bg-center"
           style={{
-            backgroundImage: `url('https://images.unsplash.com/photo-1749073668528-38ab64575f5d')`,
+            backgroundImage: `url('https://customer-assets.emergentagent.com/job_oil-gas-solutions-1/artifacts/9d5b78tt_PROJETOS%20-%20M%C3%83O%20DE%20OBRA%20-%20SUBSTITUI%C3%87%C3%83O%20DE%20DUTOS.jpeg')`,
           }}
         >
           <div className="absolute inset-0 bg-gradient-to-r from-[#2D3748]/95 to-[#004E89]/85"></div>

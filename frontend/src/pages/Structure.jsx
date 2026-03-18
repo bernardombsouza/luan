@@ -44,7 +44,7 @@ const Structure = () => {
         <div
           className="absolute inset-0 bg-cover bg-center"
           style={{
-            backgroundImage: `url('https://images.unsplash.com/photo-1740362381367-09cb98b4e1c6')`,
+            backgroundImage: `url('https://customer-assets.emergentagent.com/job_oil-gas-solutions-1/artifacts/tlshgkg7_ESTRUTURA%20-%20MAQUINARIO%20-%20MESA%20DE%20PLASMA.png')`,
           }}
         >
           <div className="absolute inset-0 bg-gradient-to-r from-[#2D3748]/95 to-[#004E89]/85"></div>
@@ -125,23 +125,23 @@ const Structure = () => {
             </div>
             <div className="grid grid-cols-2 gap-4">
               <img
-                src="https://images.unsplash.com/photo-1740362381367-09cb98b4e1c6"
-                alt="Maquinário CNC"
+                src="https://customer-assets.emergentagent.com/job_oil-gas-solutions-1/artifacts/itn3kerp_ESTRUTURA%20-%20MAQUINARIO%20-%20FRESA.png"
+                alt="Fresadora Pinnacle Bravia"
                 className="rounded-lg object-cover h-48 w-full shadow-md"
               />
               <img
-                src="https://images.unsplash.com/photo-1701448149957-b96dbd1926ff"
-                alt="Usinagem de Precisão"
+                src="https://customer-assets.emergentagent.com/job_oil-gas-solutions-1/artifacts/88hirr5m_ESTRUTURA%20-%20MAQUINARIO%20-%20FURADEIRA.png"
+                alt="Furadeira Radial Bravia"
                 className="rounded-lg object-cover h-48 w-full shadow-md"
               />
               <img
-                src="https://images.unsplash.com/photo-1682453945111-7c41592181a6"
-                alt="Processo Industrial"
+                src="https://customer-assets.emergentagent.com/job_oil-gas-solutions-1/artifacts/byn5xjy8_ESTRUTURA%20-%20MAQUINARIO%20-%20TORNO%20HORIZONTAL.png"
+                alt="Torno Horizontal Romi"
                 className="rounded-lg object-cover h-48 w-full shadow-md"
               />
               <img
-                src="https://images.unsplash.com/photo-1739117296710-6f1fb589cc08"
-                alt="Equipamentos"
+                src="https://customer-assets.emergentagent.com/job_oil-gas-solutions-1/artifacts/jsqivrih_ESTRUTURA%20-%20MAQUINARIO%20-%20TORNO%20VERTICAL.png"
+                alt="Torno Vertical AtlasMao"
                 className="rounded-lg object-cover h-48 w-full shadow-md"
               />
             </div>

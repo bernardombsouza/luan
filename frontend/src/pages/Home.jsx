@@ -68,7 +68,7 @@ const Home = () => {
         <div
           className="absolute inset-0 bg-cover bg-center"
           style={{
-            backgroundImage: `url('https://images.unsplash.com/photo-1578356058390-f58c575337a2?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjAzMjV8MHwxfHNlYXJjaHwxfHxvZmZzaG9yZSUyMHBsYXRmb3JtfGVufDB8fHx8MTc3Mzc2MDg5MXww&ixlib=rb-4.1.0&q=85')`,
+            backgroundImage: `url('https://customer-assets.emergentagent.com/job_oil-gas-solutions-1/artifacts/m87pxnii_PROJETOS%20-%20M%C3%83O%20DE%20OBRA%20-%20SOLDA%20DE%20ESTRUTURA.jpeg')`,
           }}
         >
           <div className="absolute inset-0 bg-gradient-to-r from-[#2D3748]/95 via-[#2D3748]/85 to-[#004E89]/80"></div>
@@ -180,23 +180,23 @@ const Home = () => {
             </div>
             <div className="grid grid-cols-2 gap-4">
               <img
-                src="https://images.unsplash.com/photo-1561536441-01351ded5ffd"
-                alt="Soldagem Industrial"
+                src="https://customer-assets.emergentagent.com/job_oil-gas-solutions-1/artifacts/h2bafgig_HOME%20-%20SOBRE%20A%20BRAVIA%20-%20BASE.png"
+                alt="Parque Fabril Bravia"
                 className="rounded-lg object-cover h-64 w-full"
               />
               <img
-                src="https://images.unsplash.com/photo-1749073668528-38ab64575f5d"
-                alt="Plataforma Offshore"
+                src="https://customer-assets.emergentagent.com/job_oil-gas-solutions-1/artifacts/8dalkc4m_HOME%20-%20SOBRE%20A%20BRAVIA%20-%20PROJETOS.png"
+                alt="Projetos de Engenharia"
                 className="rounded-lg object-cover h-64 w-full"
               />
               <img
-                src="https://images.unsplash.com/photo-1701448149957-b96dbd1926ff"
-                alt="Usinagem CNC"
+                src="https://customer-assets.emergentagent.com/job_oil-gas-solutions-1/artifacts/ngqn5xu2_HOME%20-%20SOBRE%20A%20BRAVIA%20-%20SERVI%C3%87O%20DE%20BASE.png"
+                alt="Soldagem Bravia"
                 className="rounded-lg object-cover h-64 w-full"
               />
               <img
-                src="https://images.unsplash.com/photo-1690508313456-bf8c851e8319"
-                alt="Estrutura Offshore"
+                src="https://customer-assets.emergentagent.com/job_oil-gas-solutions-1/artifacts/fva8v4lq_HOME%20-%20SOBRE%20A%20BRAVIA%20-%20SERVI%C3%87O%20DE%20MAO%20DE%20OBRA.jpeg"
+                alt="Serviços Offshore Bravia"
                 className="rounded-lg object-cover h-64 w-full"
               />
             </div>
