@@ -48,12 +48,11 @@ const Header = () => {
       <div className="container mx-auto px-4">
         <div className="flex items-center justify-between h-20">
           <Link to="/" className="flex items-center space-x-3">
-            <div className="text-2xl font-bold text-[#004E89]">
-              BRAVIA
-            </div>
-            <div className="text-xs text-[#2D3748] font-medium hidden sm:block">
-              ENGENHARIA
-            </div>
+            <img 
+              src="/logo-bravia.png" 
+              alt="Bravia Engenharia" 
+              className="h-12 w-auto"
+            />
           </Link>
 
           <nav className="hidden lg:flex items-center space-x-1">
